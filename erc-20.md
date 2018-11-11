@@ -34,8 +34,8 @@ Find Source Code for a Standard ERC-20 Smart Contract. You want a well tested op
 
 Launch [Remix](http://remix.ethereum.org)
 
-* Name a new file as EIP20interface.sol
-* Copy/Paste the contents of EIP20interface.sol from the consensys repo into your new file.
+* Name a new file as EIP20Interface.sol
+* Copy/Paste the contents of EIP20Interface.sol from the consensys repo into your new file.
 * Think of a cool name for your token and Name a new file as YourTokenName.sol
 * Copy/Paste the contents of EIP20.sol from the consensys repo into your new file
 * Rename the contract from EIP20 to YourTokenName.
