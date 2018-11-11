@@ -34,12 +34,12 @@ Find Source Code for a Standard ERC-20 Smart Contract. You want a well tested op
 
 Launch [Remix](http://remix.ethereum.org)
 
-* Name a new file as EIP20interface.sol
-* Copy/Paste the contents of EIP20interface.sol from the consensys repo into your new file.
-* Think of a cool name for your token and Name a new file as YourTokenName.sol
-* Copy/Paste the contents of EIP20.sol from the consensys repo into your new file
-* Rename the contract from EIP20 to YourTokenName.
-* Rename the constructor function from EIP20 to YourTokenName
+* Create a new file named as EIP20Interface.sol
+* Copy/Paste the contents of EIP20Interface.sol from the consensys repo into your new file.
+* Think of a cool name for your token and create a new .sol file using this name such as YourTokenName.sol
+* Copy/Paste the contents of EIP20.sol from the consensys repo into your new file.
+* On line 11, rename the contract from EIP20 to YourTokenName.
+* On line 26, rename the constructor function from EIP20 to YourTokenName.
 
 **Customize your Solidity Smart Contract**
 
@@ -50,7 +50,7 @@ Now you can personalize the token according to your preferences
 * Decide on your Token Supply, or how many tokens you want to exist in total.
 * NOTE: Ethereum only deals in integers only and DOES NOT recognize fractions. 1000 integers are required to represent 1 token with 3 decimal places. Therefore add an extra 0 to your token supply for every decimal place in your token.
 * Click on the Run tab in remix
-* Next to the Deploy Button, Enter your InitialAmount, TokenName, Decimals, TokenSymbol as parameters like so: 1000000,"YourTokenName",3,"YTN". Don't forget quotes for the strings.
+* Next to the Deploy Button, Enter your InitialAmount, TokenName, Decimals, TokenSymbol as parameters like so: 1000000,"YourTokenName",3,"YTN". Don't forget double quotes for the strings.
 * Alternitavely you can directly input values into your Smart Contract code. Just remember to remove the code that sets the variables inside the constructor function
 
 **Compiling and Deploying**
